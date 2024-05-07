@@ -23,7 +23,7 @@ function init() {
     fetch('assets/images/air-horn.svg')
      .then(response => response.text())
       .then(svgText => {
-        // Set the innerHTML of the div to the SVG content
+        // Set the innerHTML of the d iv to the SVG content
         div.innerHTML = svgText;
     
     // Append the div to the document body or any other parent element
@@ -78,8 +78,6 @@ function init() {
       }
     });
 
-    alert("test");
-
     button.addEventListener("click", (event) => {
       if (selectElement.value == "air-horn") {
         audioElement1.volume = globalVolume;
@@ -91,8 +89,6 @@ function init() {
         audioElement3.volume = globalVolume;
         audioElement3.play();
         jsConfetti.addConfetti();
-        
-
       }
     });
 
