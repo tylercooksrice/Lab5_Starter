@@ -43,8 +43,6 @@ function init() {
     }
     //testArea.textContent = testArea.textContent.concat(selectedVoice);
   }); 
-
-  alert("loaded");
   
   //body.appendChild(testArea);
 }
